@@ -11,6 +11,9 @@ cp .pio/build/openevse_wifi_v1/firmware.bin openevse_huzzah32.bin
 pio run -e openevse_esp32-gateway-e
 cp .pio/build/openevse_wifi_v1/firmware.bin esp32-gateway-e.bin
 
+pio run -e openevse_esp32-gateway-f
+cp .pio/build/openevse_wifi_v1/firmware.bin esp32-gateway-f.bin
+
 echo "Done" 
 
 
